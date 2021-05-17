@@ -1,0 +1,12 @@
+1) Checkout from git repository (https://github.com/developitsom/SpringNumberIncrement.git)
+2) Run Table.sql to create table in MySQL Database
+3) Open project on eclipse and update project using (Maven -> Update Project)
+4) Change database connection parameters (like url, user, password etc) in database.properties.
+5) Run the application on server (Run As -> Run on Server)
+5.1) If (Run As -> Run on Server) option is not showing then goto Project Properties and search for 'Project Facets' then check 'Web Deployment' and 'Maven'
+6) Open url "http://localhost:8080/SpringNumberIncrement/numIncrease" (without quotes)
+6.1) Change server port accordingly if it is running on other port
+7) Open jmeter using jmter.bat and open "SpringNumberIncrement.jmx"
+8) After loaded successfully then click on Home Page (expand jmeter project) and verify port no and protocol according to project.
+9) Click on Run/Start.
+10) For testing you can hit again "http://localhost:8080/SpringNumberIncrement/numIncrease" on browser and verify the result.
